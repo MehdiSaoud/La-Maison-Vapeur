@@ -1,0 +1,96 @@
+.lmj-plant-item-cover-container {
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px 5px;
+}
+
+.lmj-plant-item-cover {
+	height: 250px;
+	width: 250px;
+	object-fit: cover;
+}
+
+.lmj-plant-item {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.lmj-plant-item h4 {
+	margin: 8px 0px;
+}
+
+.lmj-plant-item-price {
+	position: absolute;
+	border-radius: 20px 20px 20px 0;
+	background-color: rgb(68, 68, 68);
+	color: white;
+	padding: 15px;
+	right: 0;
+	top: 0;
+	font-weight: 500;
+}
+
+.lmj-plant-item-care {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-container-cover {
+	background-color: white;
+	grid-area: img;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3) inset;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.modal-cover {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.modal-description {
+	grid-area: text;
+	padding-left: 32px;
+	line-height: 1.5em;
+}
+
+.modal-price {
+	grid-area: text;
+	color: yellowgreen;
+	padding: 16px 0px;
+}
+
+.modal-button-container {
+	grid-area: bouton;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items:flex-start;
+	padding-left: 32px;
+	padding-top: 16px;
+}
+
+.modal-button-container span {
+	font-size: 0.9em;
+}
+
+.modal-button {
+	background-color: green;
+	padding: 16px 24px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 48px;
+}

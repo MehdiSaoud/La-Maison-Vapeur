@@ -1,0 +1,11 @@
+.lmj-categories {
+	text-align: center;
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.lmj-categories-checkbox {
+	margin-right: 15px;
+}

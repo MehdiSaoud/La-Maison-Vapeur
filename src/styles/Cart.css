@@ -1,0 +1,88 @@
+.lmj-cart {
+	color: white;
+	background-color: rgb(68, 68, 68);
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+	position: relative; 
+}
+
+.lmj-cart > div {
+	position: fixed;
+}
+
+.lmj-cart > div > button {
+	border: none;
+	background-color: rgb(90, 90, 90);
+	color: lightgray;
+	padding: 10px;
+    cursor: pointer;
+}
+
+.lmj-cart ul {
+	padding-left: 16px;
+}
+
+.lmj-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.lmj-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	z-index: 1000;
+	padding: 0;
+	color: white;
+	align-self: flex-end;
+}
+
+.lmj-cart-closed {
+	padding: 32px;
+	background-color: rgb(68, 68, 68);
+}
+
+.lmj-cart-closed > button {
+	color: white;
+	width: 100px;
+}
+
+.lmj-cart-product {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4px;
+	width: 225px;
+}
+
+.lmj-cart-product p {
+	margin: 0px;
+}
+
+.lmj-cart-product-button {
+	background-color: whitesmoke;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.lmj-cart-product-button button {
+	background-color: whitesmoke;
+	border: none;
+	margin: 1px;
+	font-size: 1.1em;
+}
+
+.lmj-cart-product-button p {
+	display: inline;
+	width: 16px;
+	margin: 0px;
+	text-align: center;
+	padding-top: 3px;
+}
+

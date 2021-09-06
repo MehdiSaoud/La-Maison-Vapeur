@@ -1,0 +1,29 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.container-modal {
+    width: 60vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+        "img text"
+        "img bouton";
+    z-index: 10000;
+}
