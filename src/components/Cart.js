@@ -42,7 +42,7 @@ function Cart({ cart, updateCart}) {
     }
     
     useEffect(() => {
-        document.title = `LMJ: ${total}€ d'achats`
+        document.title = `La Maison Vapeur : ${total}€ d'achats`
     }, [total])
 
 	return isOpen ? (
